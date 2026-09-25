@@ -32,5 +32,13 @@ function Sports () {
   )
 };
 
+function Pet () {
+  return(
+    
+      <p>cat</p>
+    
+  )
+};
+
 
 export default App
