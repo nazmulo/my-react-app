@@ -14,14 +14,18 @@ function App() {
       <Person></Person>
     </>
   )
-};
+}; 
 
 function Person () {
   const age = 17;
   const name = 'Jolil';
 
+  const personStyle = {
+    color : 'red'
+  }
+
   return (
-    <p>I am a person : {name} {age}</p>
+    <p style={personStyle}>I am a person : {name} {age}</p>
   )
 };
 
@@ -29,7 +33,10 @@ function Sports () {
   return(
     <div>
       <h3>cricket</h3>
-      <p>playing and losing</p>
+      <p style={{
+        color : 'yellow',
+        border : '2px solid green',
+      }}>playing and losing</p>
     </div>
   )
 };
@@ -37,7 +44,7 @@ function Sports () {
 function Pet () {
   return(
     
-      <p>cat</p>
+      <p className='cat'>cat</p>
     
   )
 };
