@@ -23,6 +23,14 @@ function Person () {
   )
 };
 
+function Sports () {
+  return(
+    <div>
+      <h3>cricket</h3>
+      <p>playing and losing</p>
+    </div>
+  )
+};
 
 
 export default App
