@@ -12,6 +12,17 @@ function App() {
       <h1>hello react</h1>
     </>
   )
-}
+};
+
+function Person () {
+  const age = 17;
+  const name = 'Jolil';
+
+  return (
+    <p>I am a person : {name} {age}</p>
+  )
+};
+
+
 
 export default App
