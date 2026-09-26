@@ -12,6 +12,9 @@ function App() {
       <Person></Person>
       <Sports></Sports>
       <Person></Person>
+      <Developer name="Mojumder" tech="JS"/>
+      <Developer name="Rajon" tech="Phyton"/>
+      <Developer name="Sabana" tech="JAVA"/>
     </>
   )
 }; 
@@ -46,6 +49,22 @@ function Pet () {
     
       <p className='cat'>cat</p>
     
+  )
+};
+
+function Developer (props) {
+  return(
+
+    <div style={{
+      border : '2px solid green',
+      borderRadius : '20px',
+    }}>
+
+      <h3>Developer :{props.name}</h3>
+
+      <p>Technology :{props.tech}</p>
+
+    </div>
   )
 };
 
