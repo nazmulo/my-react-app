@@ -124,6 +124,14 @@ function ToDo ({task,isDone,time}) {
 //  }
 //}
 
-
+//export default function ToDo ({task,isDone}){
+//let listItem;
+//if (isDone===true){
+//listItem = <li>pending: {task}</li>
+//}
+//else{
+  //listItem = <li>done :{task}</li>}
+  //return listItem;
+  //                        }
 
 export default App
