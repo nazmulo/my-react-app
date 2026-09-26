@@ -112,8 +112,18 @@ function ToDo ({task,isDone,time}) {
 //  idDone &&  
 //  <li>done: {task}</li>
 
+
 //return
 //  idDone || 
 //  <li>done: {task}</li>
+
+//if (isDone===true){
+//  return null;
+//  else{
+//    return <li>done: {task}</li>
+//  }
+//}
+
+
 
 export default App
