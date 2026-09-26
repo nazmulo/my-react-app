@@ -100,4 +100,13 @@ function ToDo ({task,isDone,time}) {
   }
   
 };
+
+//export default function ToDo ({task,isDone,time=0}){
+//  return
+//  idDone?
+//  <li>done: {task}time: {time}</li>
+//  <li>not done: {task}</li>
+//}
+
+
 export default App
