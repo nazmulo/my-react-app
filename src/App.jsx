@@ -112,4 +112,8 @@ function ToDo ({task,isDone,time}) {
 //  idDone &&  
 //  <li>done: {task}</li>
 
+//return
+//  idDone || 
+//  <li>done: {task}</li>
+
 export default App
