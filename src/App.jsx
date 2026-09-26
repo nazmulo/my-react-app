@@ -15,6 +15,8 @@ function App() {
       <Developer name="Mojumder" tech="JS"/>
       <Developer name="Rajon" tech="Phyton"/>
       <Developer name="Sabana" tech="JAVA"/>
+      <Salami event="Roja" amount="20"/>
+      <Salami event="Eid" amount="10"/>
     </>
   )
 }; 
@@ -68,5 +70,14 @@ function Developer (props) {
   )
 };
 
+function Salami ({event,amount=10}) {
+  return(
+
+    <div className='cat'>
+      <p>salami for : {event}</p>
+      <p>amount : {amount}</p>
+    </div>
+  )
+};
 
 export default App
