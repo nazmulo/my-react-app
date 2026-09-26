@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+    const time = 50;
       <h1>Vite + React</h1>
       <Pet></Pet>
       <Person></Person>
@@ -17,6 +18,9 @@ function App() {
       <Developer name="Sabana" tech="JAVA"/>
       <Salami event="Roja" amount="20"/>
       <Salami event="Eid" amount="10"/>
+      <ToDo task="learn" isDone="true" time="time" />
+      <ToDo task="revice" isDone="false"/>
+      <ToDo task="shawer" isDone="true" time="100" />
     </>
   )
 }; 
@@ -74,10 +78,26 @@ function Salami ({event,amount=10}) {
   return(
 
     <div className='cat'>
-      <p>salami for : {event}</p>
-      <p>amount : {amount}</p>
+      <p>salami for:{event}</p>
+    <p>amount:{amount}</p>
+
     </div>
   )
 };
 
+function ToDo ({task,isDone,time}) {
+
+  if(isDone===true) {
+
+    return(<li>done: {task} {time}</li>)
+
+  }
+
+  else {
+
+    return(<li>pending: {task}</li>)
+
+  }
+  
+};
 export default App
