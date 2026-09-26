@@ -134,4 +134,16 @@ function ToDo ({task,isDone,time}) {
   //return listItem;
   //                        }
 
+//export default function ToDo ({task,isDone,time}){
+//const displayTime = time?time:100;
+//if (isDone===true){
+//return
+//<li>time{displayTime}</li>
+//}
+//else{
+//  return <li>pending</li>
+//}
+  
+             
+
 export default App
